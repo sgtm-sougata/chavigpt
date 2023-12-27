@@ -12,4 +12,5 @@ export default defineConfig({
 	optimizeDeps: {
 		include: ["browser-image-resizer"],
 	},
+	publicDir: 'public', // Add this line to specify the public directory
 });
